@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(238, 247, 247);
+
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgb(3, 3, 3, 0.75);
+ 
+}
