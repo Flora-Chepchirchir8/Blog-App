@@ -6,7 +6,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:travel@localhost/travel'
     QUOTE_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
-   
+    SQLALCHEMY_DATABASE_URI= 'postgres://yzkqwrziwdihcs:b47c3b0c059f016d716338c69ef520073aa772e98952fa2a757becedc35a0974@ec2-3-224-164-189.compute-1.amazonaws.com:5432/dbe48sl3on1f7o'
 
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -35,7 +35,7 @@ class ProdConfig(Config):
         
          SQLALCHEMY_DATABASE_URI=uri
     
-
+  
 
 class TestConfig(Config):
 
