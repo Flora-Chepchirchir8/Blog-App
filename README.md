@@ -1,5 +1,5 @@
 ### Blog-App
-[Project Image](app/static/images/blog.png)
+<img src="app/static/images/blog.png">
 
 
 ## Author
