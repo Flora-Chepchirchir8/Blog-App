@@ -3,7 +3,7 @@ import os
 class Config:
 
     SECRET_KEY='Hyu782DBACdGn5ZGdfyjkYlhSd@JS70'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:post@localhost/post'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:travel@localhost/travel'
     QUOTE_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
    
