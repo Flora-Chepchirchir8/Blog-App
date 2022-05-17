@@ -14,7 +14,7 @@
         <div class="card-columns">
             {% for category in category[::-1] %}
 
-            <div class="card bg-transparent border-black">
+            <div class="card bg-transparent border-dark">
                 <div class="card-header bg-transparent border-secondary fs-1">
                     {{category.title}}
                 </div>
@@ -25,13 +25,14 @@
                             <br><cite title="Source Title">Date Published ::: {{category.date.strftime('%Y-%m-%d')}}</cite></footer>
                     </blockquote>
                 </div>
-                <div class="card-footer bg-transparent border-success">
+                <div class="card-footer bg-transparent border-dark">
                     <button type="button" class="btn btn-outline-success btn-lg"><a href="/new_comment/{{category.id}}">Comment</a></button> <button type="button" class="btn btn-outline-success btn-lg"><a href="/comments/{{category.id}}">View comments</a></button>
                     <button type="button" class="btn btn-danger bt-lg" (click)='upVoteButtonClick()'>Delete</button>
 
                 </div>
             </div>
-
+            <br>
+            <br>
             {% endfor %}
      
         </div>
