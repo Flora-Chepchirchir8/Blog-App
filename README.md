@@ -8,6 +8,9 @@ Flora Chepchirchir
 
 This is a personal blogging website where you can create and share your opinions and other users can read and comment on them. You can also go through our random quotes to inspire you. 
 
+## Live link
+https://flo-cherry-blogs.herokuapp.com/
+
 ## BDD
 A user should be able to:
 - view the blog posts on the site
