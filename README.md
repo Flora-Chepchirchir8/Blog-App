@@ -32,7 +32,7 @@ A user should be able to:
 $ python3.8 -m venv virtual
 $ source virtual/bin/activate
 
-$ git clone 
+$ git clone https://flo-cherry-blogs.herokuapp.com/
 - Navigate into the cloned project.
 
 - Install all the necessary modules using requiments.txt 
